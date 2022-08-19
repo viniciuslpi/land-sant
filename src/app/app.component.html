@@ -8,7 +8,7 @@
         <a class="menu-button" href="#">Contato</a>
       </li>
       <li class="menu-item">
-        <a class="menu-button-red" href="#">Adquirir ingresso</a>
+        <a class="menu-button-red" href="#">Ingresso gratuito</a>
       </li>
     </ul>
   </nav>
@@ -20,61 +20,83 @@
       <p>Que abriga a Gruta e o Mirante dedicados à padroeira do povo cigano, Sara Kali.</p>
     </div>
 
+    <div class="programacao-content">
+      <div class="table-blocks">
 
-    <div class="table-blocks">
-      <div class="table-block">
-        <h2 class="table-title-blue table-title-align">
-          <img src="https://tems.com.br/wp-content/uploads/2022/08/bytesize_moon.png" alt="">
-          Sábado
-        </h2>
-        <div class="table-block-data">
-          <div class="table-data">
-            <p>17h30</p>
-            <p>Cerimônia da Mandala</p>
+        <div class="table-block">
+          <h2 class="table-title-blue table-title-align">
+            <img src="https://tems.com.br/wp-content/uploads/2022/08/bytesize_moon.png" alt="">
+            Sábado
+          </h2>
+          <div class="table-block-data">
+            <div class="table-data table-data-size-1">
+              <p>9h</p>
+              <p>Atendimento Espiritual</p>
+            </div>
+            <div class="table-data table-data-size-1">
+              <p>12h</p>
+              <p>Almoço</p>
+            </div>
+            <div class="table-data table-data-size-1">
+              <p>18h</p>
+              <p>Cerimônia da Mandala</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-block">
+          <h2 class="table-title-orange table-title-align">
+            <img src="https://tems.com.br/wp-content/uploads/2022/08/clarity_sun-line.png" alt="">
+            Domingo
+          </h2>
+          <div class="table-block-data">
+            <div class="table-data table-data-size-2">
+              <p>10h</p>
+              <p>Abertura com o “Hino Nacional Brasileiro” e hasteamento da Bandeira de Nossa Senhora</p>
+            </div>
+            <div class="table-data table-data-size-2">
+              <p>11h</p>
+              <p>Palestra Gilberto Rissato</p>
+            </div>
+            <div class="table-data table-data-size-2">
+              <p>13h</p>
+              <p>Almoço</p>
+            </div>
+            <div class="table-data table-data-size-2">
+              <p>15h</p>
+              <p>Cerimônia da Fogueira e Encerramento</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="table-block">
-        <img src="" alt="">
-        <h2 class="table-title-orange table-title-align">
-          <img src="https://tems.com.br/wp-content/uploads/2022/08/clarity_sun-line.png" alt="">
-          Domingo
-        </h2>
-        <div class="table-block-data">
-          <div class="table-data">
-            <p>10h</p>
-            <p>Hasteamento da bandeira</p>
-          </div>
-          <div class="table-data">
-            <p>10h30</p>
-            <p>Palestra Gilberto Rissato</p>
-          </div>
-          <div class="table-data">
-            <p>14h</p>
-            <p>Dança Fogueira</p>
-          </div>
-        </div>
+      <div class="slide-img">
+        <img src="{{img_slide}}" alt="">
       </div>
+
+      <ul class="button-slide-section">
+        <li  class="click-circle" (click)="changeSlide(1)"></li>
+        <li  class="click-circle" (click)="changeSlide(2)"></li>
+        <li  class="click-circle" (click)="changeSlide(3)"></li>
+        <li  class="click-circle" (click)="changeSlide(4)"></li>
+      </ul>
+
     </div>
 
-    <section class="slide-img">
-      <img src="" alt="">
-    </section>
-
-
-    <div>
-      <!-- inserir background -->
-      <a class="button-ingresso" href="">Garanta seu ingresso gratuito</a>
-    </div>
 
   </section>
+
+  <section class="button-section">
+    <a class="button-ingresso" href="#">Garanta seu ingresso gratuito</a>
+  </section>
+
   <section class="contato">
     <div class="contato-block">
       <h1>Contato</h1>
       <div class="contato-blocks">
         <img src="https://tems.com.br/wp-content/uploads/2022/08/bx_map.png" alt="">
-        <p>Entrada pela Rodovia Fernão Dias, km 865 <br> (sentido Belo Horizonte/MG) - Estrada Municipal <br>Joaquim Rezende Filho, Bairro dos Ferreiras - Pouso Alegre/MG</p>
+        <p>Entrada pela Rodovia Fernão Dias, km 865 <br> (sentido Belo Horizonte/MG) - Estrada Municipal <br>Joaquim
+          Rezende Filho, Bairro dos Ferreiras - Pouso Alegre/MG</p>
       </div>
       <div class="contato-blocks">
         <img src="https://tems.com.br/wp-content/uploads/2022/08/PHONE.png" alt="">
@@ -98,27 +120,29 @@
     </div>
   </section>
 </main>
+
 <footer>
   <div class="footer-block">
-    <div class="footer-blocks footer-blocks-align-center footer-p-copy">
-      <img src="https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD2555787878-1.png" alt="">
-      <p>Copyright © 2022 Santuário Sara Kali</p>
+    <div class="footer-blocks footer-blocks-align">
+      <img class="footer-img" src="https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD2555787878-1.png"
+        alt="">
+      <p class="footer-p-copy">Copyright © 2022 Santuário Sara Kali</p>
     </div>
-    <div class="footer-blocks footer-blocks-align-center">
+    <div class="footer-blocks footer-blocks-align">
       <h3>Realização</h3>
-      <div>
+      <div class="footer-logos">
         <img src="https://tems.com.br/wp-content/uploads/2022/08/LOGO_SANTUARIO-SARA-KALI-1.png" alt="">
         <img src="https://tems.com.br/wp-content/uploads/2022/08/Design-sem-nome-6-2.png" alt="">
       </div>
     </div>
-    <div>
-      <h3 class="footer-blocks">Apoiador</h3>
+    <div class="footer-blocks footer-blocks-align">
+      <h3>Apoiador</h3>
       <img src="https://tems.com.br/wp-content/uploads/2022/08/Design-sem-nome-6-2.png" alt="">
     </div>
-    <div class="footer-blocks">
+    <div class="footer-blocks footer-blocks-align-center">
       <hr class="footer-line">
     </div>
-    <div class="footer-blocks">
+    <div class="footer-blocks footer-blocks-align-center footer-icons">
       <img src="https://tems.com.br/wp-content/uploads/2022/08/akar-icons_youtube-fill.png" alt="">
       <img src="https://tems.com.br/wp-content/uploads/2022/08/Vector-2.png" alt="">
       <img src="https://tems.com.br/wp-content/uploads/2022/08/Vector.png" alt="">
