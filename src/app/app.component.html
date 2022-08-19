@@ -23,8 +23,10 @@
 
     <div class="table-blocks">
       <div class="table-block">
-
-        <h2 class="table-title-blue">Sábado</h2>
+        <h2 class="table-title-blue table-title-align">
+          <img src="https://tems.com.br/wp-content/uploads/2022/08/bytesize_moon.png" alt="">
+          Sábado
+        </h2>
         <div class="table-block-data">
           <div class="table-data">
             <p>17h30</p>
@@ -34,7 +36,11 @@
       </div>
 
       <div class="table-block">
-        <h2 class="table-title-orange">Domingo</h2>
+        <img src="" alt="">
+        <h2 class="table-title-orange table-title-align">
+          <img src="https://tems.com.br/wp-content/uploads/2022/08/clarity_sun-line.png" alt="">
+          Domingo
+        </h2>
         <div class="table-block-data">
           <div class="table-data">
             <p>10h</p>
@@ -58,6 +64,7 @@
 
 
     <div>
+      <!-- inserir background -->
       <a class="button-ingresso" href="">Garanta seu ingresso gratuito</a>
     </div>
 
@@ -66,20 +73,19 @@
     <div class="contato-block">
       <h1>Contato</h1>
       <div class="contato-blocks">
-        <img src="" alt="">
-        <p>O Santuário Sara Kali fica localizado no Instituto Colônia Esperança, próximo à Rodovia Fernão Dias, KM 865 –
-          Pouso Alegre/MG.</p>
+        <img src="https://tems.com.br/wp-content/uploads/2022/08/bx_map.png" alt="">
+        <p>Entrada pela Rodovia Fernão Dias, km 865 <br> (sentido Belo Horizonte/MG) - Estrada Municipal <br>Joaquim Rezende Filho, Bairro dos Ferreiras - Pouso Alegre/MG</p>
       </div>
       <div class="contato-blocks">
-        <img src="" alt="">
-        <p>+55 (11) 3354-1500</p>
+        <img src="https://tems.com.br/wp-content/uploads/2022/08/PHONE.png" alt="">
+        <p>+ 55 (11) 3354-1500</p>
       </div>
       <div class="contato-blocks">
-        <img src="" alt="">
-        <p>+ 55 (35) 9 9929-2435 | +55 (11) 9 9811-7698</p>
+        <img src="https://tems.com.br/wp-content/uploads/2022/08/WHATS.png" alt="">
+        <p>+ 55 (35) 9 9929-2435 | + 55 (11) 9 9811-7698</p>
       </div>
       <div class="contato-blocks">
-        <img src="" alt="">
+        <img class="contato-blocks-img-size" src="https://tems.com.br/wp-content/uploads/2022/08/EMAIL.png" alt="">
         <p>faleconosco@tems.com.br</p>
       </div>
     </div>
@@ -87,34 +93,36 @@
     <div class="contato-block">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.692270102871!2d-45.88705968255615!3d-22.3652455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb953e06f36cdf%3A0x6d7b2b986f9c2903!2sSantu%C3%A1rio%20Santa%20Sara%20Kali!5e0!3m2!1spt-BR!2sbr!4v1660759142764!5m2!1spt-BR!2sbr"
-        width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
 </main>
 <footer>
-  <div>
-    <img src="" alt="">
-    <p>Copyright by C Santuário Sara Kali</p>
-  </div>
-  <div>
-    <h3>Realização</h3>
-    <img src="" alt="">
-    <img src="" alt="">
-  </div>
-  <div>
-    <h3>Apoiador</h3>
-    <img src="" alt="">
-  </div>
-  <div>
-    <!-- NAO DEFINIDO -->
+  <div class="footer-block">
+    <div class="footer-blocks footer-blocks-align-center footer-p-copy">
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD2555787878-1.png" alt="">
+      <p>Copyright © 2022 Santuário Sara Kali</p>
+    </div>
+    <div class="footer-blocks footer-blocks-align-center">
+      <h3>Realização</h3>
+      <div>
+        <img src="https://tems.com.br/wp-content/uploads/2022/08/LOGO_SANTUARIO-SARA-KALI-1.png" alt="">
+        <img src="https://tems.com.br/wp-content/uploads/2022/08/Design-sem-nome-6-2.png" alt="">
+      </div>
+    </div>
+    <div>
+      <h3 class="footer-blocks">Apoiador</h3>
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/Design-sem-nome-6-2.png" alt="">
+    </div>
+    <div class="footer-blocks">
+      <hr class="footer-line">
+    </div>
+    <div class="footer-blocks">
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/akar-icons_youtube-fill.png" alt="">
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/Vector-2.png" alt="">
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/Vector.png" alt="">
+      <img src="https://tems.com.br/wp-content/uploads/2022/08/Vector-1.png" alt="">
+    </div>
   </div>
 </footer>
-
-<div style="width: 80; height: 3000; text-align:center;margin:0; padding:0;">
-  <ng-image-slider #nav 
-    [images]="imageObject" [infinite]="false" [autoSlide]="1"
-    [imageSize]="{width: 100, height: 600}" 
-    slideImage="1">
-  </ng-image-slider>
-</div>
