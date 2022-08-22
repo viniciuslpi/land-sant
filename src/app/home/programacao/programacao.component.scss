@@ -15,13 +15,10 @@
     align-items: center;
     justify-content: center;
     color: #252B3B;
-    padding-bottom: 130px;
 }
 
 .programacao-title h1 {
-    font-size: 82px;
     font-weight: 700;
-    margin-bottom: 50px;
 }
 
 .programacao-title p {
@@ -33,15 +30,12 @@
 
 .table-blocks {
     display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
     box-sizing: border-box;
     width: 100%;
 }
 
 .table-block {
     height: 100%;
-    width: 42%;
     z-index: 1;
 }
 
@@ -60,17 +54,15 @@
 }
 
 .table-block img {
-    padding-right: 40px;
+    // padding-right: 40px;
 }
 
 .table-block h2 {
-    padding: 20px;
     text-align: center;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 34px;
 }
 
 .table-block-data {
@@ -79,17 +71,14 @@
     align-items: center;
     background-color: white;
     border-radius: 0px 0px 60px 60px;
-    padding: 55px 0 45px 0;
 }
 
 .table-data {
     display: flex;
     justify-items: center;
     align-items: center;
-    margin-bottom: 70px;
     color: #292929;
     border-radius: 0px 0px 60px 60px;
-    font-size: 22px;
 }
 
 .table-data p {
@@ -98,10 +87,6 @@
 
 .table-data-size-1 {
     width: 70%;
-}
-
-.table-data-size-1 p:last-child {
-    padding-left: 65px;
 }
 
 .table-data-size-2 {
@@ -126,11 +111,10 @@
 
 
 .slide-img {
-    height: 650px;
     width: 100%;
     overflow: hidden;
     z-index: -1;
-    margin-top: -200px;
+    // border: 1px solid red;
 }
 
 .slide-img img {
@@ -141,15 +125,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 13%;
     margin: 50px auto 0 auto;
     // border: 1px solid red;
     
 }
 
 .click-circle {
-    height: 25px;
-    width: 25px;
     border-radius: 50%;
     border: 3px solid #252B3B;
     z-index: 1;
@@ -162,8 +143,6 @@
     content: "";
     display: inline-block;
     // background-color: black;
-    width: 25px;
-    height: 25px;
     border-radius: 100%;
     opacity: 0.5;
     cursor: pointer;
@@ -171,9 +150,9 @@
 
 .click-circle:hover {
     background-color: #252B3B;
-    width: 25px;
-    height: 25px;
+
 }
+
 .click-circle:active::after,
 .click-circle:focus::after {
     opacity: .4;
@@ -214,3 +193,258 @@
     background-color: #399F2F;
 }
 
+
+// desktop
+
+@media (min-width: 1260px) {
+
+    .programacao-title {
+        padding-bottom: 130px;
+    }
+
+    .programacao-title h1 {
+        font-size: 82px;
+        margin-bottom: 50px;
+    }
+
+    .table-blocks {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .table-block {
+        width: 42%;
+    }
+
+    .table-block img {
+        padding-right: 40px;
+    }
+    
+    .table-block h2 {
+        padding: 20px;
+        font-size: 34px;
+    }
+    
+
+    .table-data {
+        font-size: 22px;
+        margin-bottom: 70px;
+
+    }
+
+    .table-data-size-1 p:last-child {
+        padding-left: 65px;
+    }
+
+    .table-data-size-2 p:last-child {
+        padding-left: 30px;
+    }
+
+    .table-block-data {
+        padding: 55px 0 45px 0;
+    }
+
+    .slide-img {
+        height: 500px;
+        margin-top: -250px;
+    }
+
+    .button-slide-section {
+        width: 13%;   
+    }
+
+    .click-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .click-circle::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .click-circle:hover {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+
+// tablet
+
+@media (min-width: 1025px) and (max-width: 1259px) {
+
+    .programacao-title {
+        padding-bottom: 130px;
+    }
+
+    .programacao-title h1 {
+        font-size: 82px;
+        margin-bottom: 50px;
+    }
+
+    .table-blocks {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .table-block {
+        width: 42%;
+        
+    }
+
+    .table-block img {
+        padding-right: 40px;
+    }
+    
+    .table-block h2 {
+        padding: 20px;
+        font-size: 34px;
+    }
+
+    .table-data {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .table-data-size-1 {
+        width: 80%;
+    }
+
+    .table-data-size-1 p:last-child {
+        padding-left: 40px;
+    }
+
+    .table-data-size-2 p:last-child {
+        padding-left: 20px;
+    }
+
+    .table-block-data {
+        padding: 55px 0 45px 0;
+    }
+
+    .slide-img {
+        height: 500px;
+        margin-top: -270px;
+    }
+
+    .button-slide-section {
+        width: 20%;   
+    }
+
+    .click-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .click-circle::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .click-circle:hover {
+        width: 25px;
+        height: 25px;
+    }
+
+
+}
+
+// ipad mini
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .programacao-title {
+        padding-bottom: 80px;
+    }
+
+    .programacao-title h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .table-blocks {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .table-block {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .table-block:first-child {
+        width: 85%;
+    }
+
+    .table-block img {
+        height: 45px;
+        width: 45px;
+        padding-right: 20px;
+    }
+
+    .table-block h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .table-block-data {
+        font-size: 25px;
+        padding: 35px 0 25px 0;
+
+    }
+
+    .table-data {
+        margin-bottom: 30px;
+    }
+
+    .table-data-size-1 p:last-child {
+        padding-left: 30px;
+    }
+    
+
+    .slide-img {
+        height: 600px;
+        margin-top: 0;
+    }
+
+    .slide-img img {
+        width: fit-content;
+    }
+
+    .button-slide-section {
+        margin: 50px auto 0 auto;
+        width: 45%;   
+    }
+
+    .click-circle {
+        height: 35px;
+        width: 35px;
+    }
+
+    .click-circle::after {
+        width: 35px;
+        height: 35px;
+    }
+
+    .click-circle:hover {
+        width: 35px;
+        height: 35px;
+    }
+
+    .button-ingresso {
+        font-size: 25px;
+       
+    }
+
+}
+
+
+//mobile
+@media (max-width: 767px) {
+
+}

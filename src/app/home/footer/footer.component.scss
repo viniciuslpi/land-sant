@@ -58,3 +58,30 @@ footer {
 .footer-icons {
     width: 250px;
 }
+
+// desktop
+
+@media (min-width: 1260px) {
+
+}
+
+
+// tablet
+
+@media (min-width: 1025px) and (max-width: 1259px) {
+
+}
+
+// ipad mini
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+//mobile
+@media (max-width: 767px) {
+    footer {
+        display: none;
+    }
+}

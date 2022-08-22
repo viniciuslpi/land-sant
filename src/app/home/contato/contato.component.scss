@@ -1,7 +1,6 @@
 .contato {
     display: flex;
     justify-content: center;
-    padding: 150px 150px;
     align-items: center;
     background-color: #032E9C;
     color: white;
@@ -49,4 +48,164 @@
 .contato-blocks-img-size {
     height: 20px;
     width: 27px;
+}
+
+// desktop
+
+@media (min-width: 1260px) {
+
+    .contato-mobile {
+        display: none;
+    }   
+
+    .contato {
+        padding: 150px 150px;
+    }
+    
+
+}
+
+
+// tablet
+
+@media (min-width: 1025px) and (max-width: 1259px) {
+
+    .contato-mobile {
+        display: none;
+    }   
+
+    .contato {
+        padding: 50px 50px;
+    }
+}
+
+// ipad mini
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .contato-desktop {
+        display: none;
+    }
+
+    .contato-mobile {
+        background-color: #032E9C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .contato-mobile h1 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+
+    .contato-mobile-blocks {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    .contato-mobile-block {
+        background-color: white;
+        border-radius: 20px;
+        width: 30%;
+        margin: 20px;
+        padding: 35px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato-mobile-block img {
+        margin-bottom: 30px;
+    }
+
+    .contato-mobile-block img:last-child {
+        height: 60px;
+        width: 60px;
+    }
+
+    .contato-mobile-block h2 {
+        color: #032E9C;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+
+//mobile
+@media (max-width: 767px) {
+
+    .contato-desktop {
+        display: none;
+    }
+
+    .contato-mobile {
+        background-color: #032E9C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0 80px 0;
+    }
+
+    .contato-mobile h1 {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .contato-mobile-blocks {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    .contato-mobile-block {
+        background-color: white;
+        border-radius: 20px;
+        width: 30%;
+        margin: 20px;
+        padding: 25px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .contato-mobile-block img {
+        margin-bottom: 20px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .contato-mobile-block-img {
+        height: 30px !important;
+        width: 42px !important;
+    }
+
+
+    .contato-mobile-block h2 {
+        color: #032E9C;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
 }
