@@ -10,6 +10,7 @@
 }
 
 .contato h1 {
+    font-family: 'Cambay', sans-serif;
     font-size: 82px;
     font-weight: 600;
     margin-bottom: 70px;
@@ -59,12 +60,12 @@
 
     .contato-mobile {
         display: none;
-    }   
+    }
 
     .contato {
         padding: 150px 150px;
     }
-    
+
 
 }
 
@@ -75,7 +76,7 @@
 
     .contato-mobile {
         display: none;
-    }   
+    }
 
     .contato {
         padding: 50px 50px;
@@ -85,7 +86,7 @@
 // ipad mini
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    
+
     .contato-desktop {
         display: none;
     }
@@ -106,6 +107,7 @@
     }
 
     .contato-mobile h1 {
+        font-family: 'Cambay', sans-serif;
         color: white;
         text-align: center;
         font-size: 50px;
@@ -127,6 +129,10 @@
         width: 30%;
         margin: 20px;
         padding: 35px 0;
+    }
+
+    .contato-mobile-link {
+        text-decoration: none;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -167,6 +173,7 @@
     }
 
     .contato-mobile h1 {
+        font-family: 'Cambay', sans-serif;
         color: white;
         text-align: center;
         font-size: 30px;
@@ -180,7 +187,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        
+
 
     }
 
@@ -190,11 +197,15 @@
         width: 30%;
         margin: 10px;
         padding: 15px 10px;
+        height: 80px;
+    }
+
+    .contato-mobile-link {
+        text-decoration: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80px;
     }
 
     .contato-mobile-block img {

@@ -130,16 +130,18 @@ footer {
 
     .footer-img {
         margin-bottom: 5px;
-      
+        margin: auto;
+        height: 80px;
     }
 
     .footer-blocks h3 {
-        font-size: 13px;
+        font-size: 12px;
+        margin-bottom: 10px;
     }
 
-    .footer-blocks p {
-        text-align: center;
-        font-size: 8px;
+    .footer-p-copy {
+        margin: auto;
+        font-size: 6px;
     }
 
     .footer-mobile-hide {
@@ -148,6 +150,15 @@ footer {
 
     .footer-logos img:first-child {
         padding-right: 5px;
+    }
+
+    .footer-logos img {
+        height: 50px;
+    }
+
+    .footer-blocks-img {
+        height: 50px;
+
     }
 
     .footer-logos-bg {

@@ -1,11 +1,3 @@
-header {
-    background-image: url(https://tems.com.br/wp-content/uploads/2022/08/encontra-de-consagracao-1.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .menu-nav {
     color: white;
     font-weight: bold;
@@ -47,6 +39,11 @@ header {
 @media (min-width: 1260px) {
 
     header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/encontra-de-consagracao-1.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         height: 1031px;
     }
 
@@ -81,6 +78,11 @@ header {
 
     
     header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/encontra-de-consagracao-1.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         height: 1031px;
     }
 
@@ -110,8 +112,12 @@ header {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    
     header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD278.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         height: 1031px;
     }
 
@@ -139,11 +145,16 @@ header {
 
 
 //mobile
-@media (max-width: 767px) {
+@media (min-width: 392px) and (max-width: 767px) {
 
     header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD278.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         height: 450px;
-    }    
+    }
 
     .menu-nav {
         margin: 0 auto;
@@ -153,7 +164,7 @@ header {
 
     .menu-item {
         padding: 5px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .menu-item:last-child {
@@ -162,10 +173,49 @@ header {
     }
 
     .menu-button {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .menu-ul {
         justify-content: center;
+    }
+}
+
+@media (max-width: 391px) {
+    header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD278.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+    }
+
+    .menu-nav {
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    .menu-item {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .menu-item:last-child {
+       padding: 17px 12px; 
+       border-radius: 13px;
+    }
+
+    .menu-button {
+        font-size: 12px;
+    }
+
+    .menu-ul {
+        justify-content: center;
+    }
+
+    .menu-button-red {
+        cursor: pointer;
     }
 }

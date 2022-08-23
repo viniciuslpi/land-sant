@@ -18,6 +18,7 @@
 }
 
 .programacao-title h1 {
+    font-family: 'Cambay', sans-serif;
     font-weight: 700;
 }
 
@@ -247,7 +248,7 @@
 
     .slide-img {
         height: 500px;
-        margin-top: -250px;
+        margin-top: -200px;
     }
 
     .button-slide-section {
@@ -274,6 +275,88 @@
     }
 }
 
+@media (min-width: 1501px) {
+
+    .programacao-title {
+        padding-bottom: 130px;
+    }
+
+    .programacao-title h1 {
+        font-size: 82px;
+        margin-bottom: 50px;
+    }
+
+    .table-blocks {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .table-block {
+        width: 42%;
+    }
+
+    .table-block img {
+        padding-right: 40px;
+    }
+    
+    .table-block h2 {
+        padding: 20px;
+        font-size: 34px;
+    }
+    
+
+    .table-data {
+        font-size: 22px;
+        margin-bottom: 70px;
+
+    }
+
+    .table-data-size-1 {
+        width: 80%;
+    }
+
+
+    .table-data-size-1 p:last-child {
+        padding-left: 60px;
+    }
+
+    .table-data-size-2 p:last-child {
+        padding-left: 30px;
+    }
+
+    .table-block-data {
+        padding: 55px 0 45px 0;
+    }
+
+    .slide-img {
+        height: 100%;
+        margin-top: -250px;
+    }
+
+    .button-slide-section {
+        width: 13%;   
+    }
+
+    .click-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .click-circle::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .click-circle:hover {
+        width: 25px;
+        height: 25px;
+    }
+
+    .button-section {
+        height: 253px;    
+    }
+
+}
 
 // desktop
 
@@ -331,8 +414,8 @@
     }
 
     .slide-img {
-        height: 500px;
-        margin-top: -250px;
+        height: 100%;
+        margin-top: -260px;
     }
 
     .button-slide-section {
@@ -417,8 +500,8 @@
     }
 
     .slide-img {
-        height: 500px;
-        margin-top: -270px;
+        height: 100%;
+        margin-top: -220px;
     }
 
     .button-slide-section {
@@ -616,7 +699,6 @@
         padding-left: 30px;
     }
     
-
     .slide-img {
         height: 300px;
         margin-top: 0;
@@ -653,6 +735,10 @@
     }
 
     .button-section {
-        height: 120px;    
+        background-size: 100%;
+        padding-bottom: 80px;
+        width: 100%;
+        background-position: bottom;
     }
+
 }

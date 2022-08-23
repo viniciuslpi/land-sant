@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "pwa": "http-server ./dist/land-sant"
+
   },
   "private": true,
   "dependencies": {

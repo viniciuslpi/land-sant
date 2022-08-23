@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 
 export class ProgramacaoComponent {
 
-  img_slide = "https://tems.com.br/wp-content/uploads/2022/08/MicrosoftTeams-image-3.jpg";
-  img_slide_1 = "https://tems.com.br/wp-content/uploads/2022/08/MicrosoftTeams-image-3.jpg";
-  img_slide_2 = "https://tems.com.br/wp-content/uploads/2022/08/encontro-cla╠a-18-.ml-7875.jpg";
+  img_slide = "https://tems.com.br/wp-content/uploads/2022/08/1.jpg";
+  img_slide_1 = "https://tems.com.br/wp-content/uploads/2022/08/1.jpg";
+  img_slide_2 = "https://tems.com.br/wp-content/uploads/2022/08/2.jpg";
   img_slide_3 = "https://tems.com.br/wp-content/uploads/2022/08/4.jpg";
 
   changeSlide(image: Number) {
