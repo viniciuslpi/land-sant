@@ -1,9 +1,12 @@
 .contato {
+    background-color: #032E9C;
+    color: white;
+}
+
+.contato-desktop {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #032E9C;
-    color: white;
 }
 
 .contato h1 {
@@ -87,6 +90,10 @@
         display: none;
     }
 
+    .contato {
+        padding: 0px;
+    }
+
     .contato-mobile {
         background-color: #032E9C;
         display: flex;
@@ -94,6 +101,8 @@
         justify-content: center;
         align-items: center;
         padding: 50px 0;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .contato-mobile h1 {
@@ -105,13 +114,11 @@
     }
 
     .contato-mobile-blocks {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-
-
     }
 
     .contato-mobile-block {
@@ -156,13 +163,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 0 80px 0;
+        padding: 50px 0 40px 0;
     }
 
     .contato-mobile h1 {
         color: white;
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
         margin-bottom: 40px;
     }
@@ -171,9 +178,9 @@
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-
+        
 
     }
 
@@ -181,8 +188,8 @@
         background-color: white;
         border-radius: 20px;
         width: 30%;
-        margin: 20px;
-        padding: 25px 10px;
+        margin: 10px;
+        padding: 15px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -192,8 +199,8 @@
 
     .contato-mobile-block img {
         margin-bottom: 20px;
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
     }
 
     .contato-mobile-block-img {
@@ -205,7 +212,7 @@
     .contato-mobile-block h2 {
         color: #032E9C;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }

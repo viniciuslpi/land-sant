@@ -4,7 +4,6 @@ footer {
 }
 
 .footer-block {
-    width: 80%;
     padding: 20px;
     // border: 1px solid red;
     display: flex;
@@ -33,10 +32,6 @@ footer {
     color: #252B3B;
 }
 
-.footer-logos img:first-child {
-    padding-right: 60px;
-}
-
 .footer-blocks-align {
     justify-content: center;
     flex-direction: column;
@@ -63,25 +58,113 @@ footer {
 
 @media (min-width: 1260px) {
 
+    .footer-block {
+        width: 70%;
+    }
+
+    .footer-logos img:first-child {
+        padding-right: 30px;
+    }
+
+    .footer-logos-bg {
+        display: none;
+    }
+    
 }
 
 
 // tablet
 
 @media (min-width: 1025px) and (max-width: 1259px) {
+    
+    .footer-block {
+        width: 70%;
+    }
 
+    .footer-logos img:first-child {
+        padding-right: 20px;
+    }
+
+    .footer-logos-bg {
+        display: none;
+    }
+    
 }
 
 // ipad mini
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .footer-block {
+        width: 90%;
+    }
 
+    .footer-logos-bg {
+        display: none;
+    }
 }
 
 
 //mobile
 @media (max-width: 767px) {
-    footer {
+
+    #footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-block {
+        width: 90%;
+        align-items: flex-start;   
+    }
+
+    .footer-blocks {
+        width: 33%;
+        align-items: flex-start;
+    }
+
+    .footer-blocks:nth-child(3) {
+        width: 20%;
+    }
+
+    .footer-img {
+        margin-bottom: 5px;
+      
+    }
+
+    .footer-blocks h3 {
+        font-size: 13px;
+    }
+
+    .footer-blocks p {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .footer-mobile-hide {
         display: none;
     }
+
+    .footer-logos img:first-child {
+        padding-right: 5px;
+    }
+
+    .footer-logos-bg {
+        width: 100%;
+        background-color: #EBEBEB;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer-blocks-bg {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        padding: 5px 0;
+    }
+
 }

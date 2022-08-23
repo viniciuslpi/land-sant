@@ -86,7 +86,7 @@
 }
 
 .table-data-size-1 {
-    width: 70%;
+    width: 80%;
 }
 
 .table-data-size-2 {
@@ -166,7 +166,6 @@
 
 .button-section {
     background-color: #FFFDF8;
-    height: 253px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -192,9 +191,6 @@
     transition: 1s;
     background-color: #399F2F;
 }
-
-
-// desktop
 
 @media (min-width: 1260px) {
 
@@ -232,8 +228,13 @@
 
     }
 
+    .table-data-size-1 {
+        width: 70%;
+    }
+
+
     .table-data-size-1 p:last-child {
-        padding-left: 65px;
+        padding-left: 60px;
     }
 
     .table-data-size-2 p:last-child {
@@ -268,6 +269,95 @@
         height: 25px;
     }
 
+    .button-section {
+        height: 253px;    
+    }
+}
+
+
+// desktop
+
+@media (min-width: 1260px) and (max-width: 1500px) {
+
+    .programacao-title {
+        padding-bottom: 130px;
+    }
+
+    .programacao-title h1 {
+        font-size: 82px;
+        margin-bottom: 50px;
+    }
+
+    .table-blocks {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .table-block {
+        width: 42%;
+    }
+
+    .table-block img {
+        padding-right: 40px;
+    }
+    
+    .table-block h2 {
+        padding: 20px;
+        font-size: 34px;
+    }
+    
+
+    .table-data {
+        font-size: 22px;
+        margin-bottom: 70px;
+
+    }
+
+    .table-data-size-1 {
+        width: 80%;
+    }
+
+
+    .table-data-size-1 p:last-child {
+        padding-left: 60px;
+    }
+
+    .table-data-size-2 p:last-child {
+        padding-left: 30px;
+    }
+
+    .table-block-data {
+        padding: 55px 0 45px 0;
+    }
+
+    .slide-img {
+        height: 500px;
+        margin-top: -250px;
+    }
+
+    .button-slide-section {
+        width: 13%;   
+    }
+
+    .click-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .click-circle::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .click-circle:hover {
+        width: 25px;
+        height: 25px;
+    }
+
+    .button-section {
+        height: 253px;    
+    }
+
 }
 
 
@@ -295,17 +385,19 @@
     }
 
     .table-block img {
-        padding-right: 40px;
+        height: 40px;
+        width: 40px;
+        padding-right: 30px;
     }
     
     .table-block h2 {
-        padding: 20px;
-        font-size: 34px;
+        padding: 10px;
+        font-size: 28px;
     }
 
     .table-data {
         font-size: 18px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .table-data-size-1 {
@@ -346,6 +438,10 @@
     .click-circle:hover {
         width: 25px;
         height: 25px;
+    }
+
+    .button-section {
+        height: 253px;    
     }
 
 
@@ -438,7 +534,10 @@
 
     .button-ingresso {
         font-size: 25px;
-       
+    }
+
+    .button-section {
+        height: 180px;    
     }
 
 }
@@ -447,4 +546,113 @@
 //mobile
 @media (max-width: 767px) {
 
+    .programacao {
+        padding: 60px 0 40px 0;
+    }
+
+    .programacao-title {
+        padding-bottom: 50px;
+    }
+
+    .programacao-title h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .programacao-title p {
+        font-size: 13px;
+        padding: 0 35px;
+        text-align: center;
+    }
+
+    .table-blocks {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    .table-block {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .table-block:first-child {
+        width: 85%;
+    }
+
+    .table-block img {
+        height: 20px;
+        width: 20px;
+        padding-right: 10px;
+    }
+
+    .table-block h2 {
+        padding: 7px;
+        font-size: 16px;
+    }
+
+    .table-block-data {
+        font-size: 25px;
+        padding: 25px 0 25px 0;
+
+    }
+
+    .table-data {
+        margin-bottom: 14px;
+        align-items: flex-start;
+    }
+
+    .table-data p{
+        font-size: 14px;
+    }
+
+    .table-data-size-1 {
+        width: 75%;
+    }
+
+    .table-data-size-1 p:last-child {
+        padding-left: 30px;
+    }
+    
+
+    .slide-img {
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .slide-img img {
+        width: max-content;
+    }
+
+    .button-slide-section {
+        margin: 30px auto 0 auto;
+        width: 60%;   
+    }
+
+    .click-circle {
+        height: 20px;
+        width: 20px;
+    }
+
+    .click-circle::after {
+        height: 20px;
+        width: 20px;
+    }
+
+    .click-circle:hover {
+        height: 20px;
+        width: 20px;
+    }
+
+    .button-ingresso {
+        font-size: 15px;
+        padding: 20px 12px;
+        border-radius: 18px;
+    }
+
+    .button-section {
+        height: 120px;    
+    }
 }
