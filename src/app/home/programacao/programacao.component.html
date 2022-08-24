@@ -2,7 +2,7 @@
 
   <div class="programacao-title">
     <h1>Programação</h1>
-    <p>Que abriga a Gruta e o Mirante dedicados à padroeira do povo cigano, Sara Kali.</p>
+    <p>Fique por dentro de tudo o que acontecerá no evento</p>
   </div>
 
   <div class="programacao-content">
@@ -11,7 +11,7 @@
       <div class="table-block">
         <h2 class="table-title-blue table-title-align">
           <img src="https://tems.com.br/wp-content/uploads/2022/08/bytesize_moon.png" alt="">
-          Sábado
+          <span>Sábado</span>
         </h2>
         <div class="table-block-data">
           <div class="table-data table-data-size-1">
@@ -60,15 +60,15 @@
     </div>
 
     <ul class="button-slide-section">
-      <li class="click-circle" (click)="changeSlide(1)"></li>
-      <li class="click-circle" (click)="changeSlide(2)"></li>
-      <li class="click-circle" (click)="changeSlide(3)"></li>
-      <li class="click-circle" (click)="changeSlide(4)"></li>
+      <li class="click-circle" [ngClass]="{'click-circle-ative' : ative1}" (click)="changeSlide(1)"></li>
+      <li class="click-circle" [ngClass]="{'click-circle-ative' : ative2}" (click)="changeSlide(2)"></li>
+      <li class="click-circle" [ngClass]="{'click-circle-ative' : ative3}" (click)="changeSlide(3)"></li>
+      <li class="click-circle" [ngClass]="{'click-circle-ative' : ative4}" (click)="changeSlide(4)"></li>
     </ul>
 
   </div>
 
 </section>
 <section class="button-section">
-  <a class="button-ingresso" href="#">Garanta seu ingresso gratuito</a>
+  <a class="button-ingresso" href="https://santuariosarakali.com.br/produto/encontro-de-consagracao-a-nossa-senhora/">Garanta seu ingresso gratuito</a>
 </section>

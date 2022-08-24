@@ -59,11 +59,16 @@
 }
 
 .table-block h2 {
-    text-align: center;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1em;
+    font-family: 'Cambay', sans-serif;
+}
+
+.table-block h2 span {
+    margin: 0;
+    padding: 0;
 }
 
 .table-block-data {
@@ -128,39 +133,26 @@
     justify-content: space-between;
     margin: 50px auto 0 auto;
     // border: 1px solid red;
-    
+
 }
 
 .click-circle {
     border-radius: 50%;
-    border: 3px solid #252B3B;
+    border: 2px solid #252B3B;
     z-index: 1;
     cursor: pointer;
     // background-color: transparent;
 }
 
+// .click-circle:active::after,
+// .click-circle:focus::after {
+//     opacity: .4;
+//     background-color: #252B3B;
 
-.click-circle::after {
-    content: "";
-    display: inline-block;
-    // background-color: black;
-    border-radius: 100%;
-    opacity: 0.5;
-    cursor: pointer;
-}
+// }
 
-.click-circle:hover {
+.click-circle-ative {
     background-color: #252B3B;
-
-}
-
-.click-circle:active::after,
-.click-circle:focus::after {
-    opacity: .4;
-}
-
-.click-circle:active {
-    opacity: 0.4;
 }
 
 
@@ -175,12 +167,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .button-ingresso {
     text-decoration: none;
-    background-color: green;
+    background-color: #399F2F;
     border-radius: 30px;
     padding: 30px;
     font-size: 21px;
@@ -190,90 +182,91 @@
 
 .button-ingresso:hover {
     transition: 1s;
-    background-color: #399F2F;
+    background-color: green;
 }
 
-@media (min-width: 1260px) {
+// desktop
 
-    .programacao-title {
-        padding-bottom: 130px;
-    }
+// @media (min-width: 1260px) {
+//     // .programacao-title {
+//     //     padding-bottom: 130px;
+//     // }
 
-    .programacao-title h1 {
-        font-size: 82px;
-        margin-bottom: 50px;
-    }
+//     // .programacao-title h1 {
+//     //     font-size: 82px;
+//     //     margin-bottom: 50px;
+//     // }
 
-    .table-blocks {
-        justify-content: space-between;
-        padding: 0 40px;
-    }
+//     // .table-blocks {
+//     //     justify-content: space-between;
+//     //     padding: 0 40px;
+//     // }
 
-    .table-block {
-        width: 42%;
-    }
+//     // .table-block {
+//     //     width: 42%;
+//     // }
 
-    .table-block img {
-        padding-right: 40px;
-    }
-    
-    .table-block h2 {
-        padding: 20px;
-        font-size: 34px;
-    }
-    
+//     // .table-block img {
+//     //     padding-right: 40px;
+//     // }
 
-    .table-data {
-        font-size: 22px;
-        margin-bottom: 70px;
-
-    }
-
-    .table-data-size-1 {
-        width: 70%;
-    }
+//     // .table-block h2 {
+//     //     padding: 20px;
+//     //     font-size: 34px;
+//     // }
 
 
-    .table-data-size-1 p:last-child {
-        padding-left: 60px;
-    }
+//     // .table-data {
+//     //     font-size: 22px;
+//     //     margin-bottom: 70px;
 
-    .table-data-size-2 p:last-child {
-        padding-left: 30px;
-    }
+//     // }
 
-    .table-block-data {
-        padding: 55px 0 45px 0;
-    }
+//     // .table-data-size-1 {
+//     //     width: 70%;
+//     // }
 
-    .slide-img {
-        height: 500px;
-        margin-top: -200px;
-    }
 
-    .button-slide-section {
-        width: 13%;   
-    }
+//     // .table-data-size-1 p:last-child {
+//     //     padding-left: 60px;
+//     // }
 
-    .click-circle {
-        height: 25px;
-        width: 25px;
-    }
+//     // .table-data-size-2 p:last-child {
+//     //     padding-left: 30px;
+//     // }
 
-    .click-circle::after {
-        width: 25px;
-        height: 25px;
-    }
+//     // .table-block-data {
+//     //     padding: 55px 0 45px 0;
+//     // }
 
-    .click-circle:hover {
-        width: 25px;
-        height: 25px;
-    }
+//     // .slide-img {
+//     //     height: 500px;
+//     //     margin-top: -200px;
+//     // }
 
-    .button-section {
-        height: 253px;    
-    }
-}
+//     // .button-slide-section {
+//     //     width: 13%;   
+//     // }
+
+//     // .click-circle {
+//     //     height: 25px;
+//     //     width: 25px;
+//     // }
+
+//     // .click-circle::after {
+//     //     width: 25px;
+//     //     height: 25px;
+//     // }
+
+//     // .click-circle:hover {
+//     //     width: 25px;
+//     //     height: 25px;
+//     // }
+
+//     // .button-section {
+//     //     height: 253px;    
+//     // }
+// }
 
 @media (min-width: 1501px) {
 
@@ -298,12 +291,12 @@
     .table-block img {
         padding-right: 40px;
     }
-    
+
     .table-block h2 {
         padding: 20px;
         font-size: 34px;
     }
-    
+
 
     .table-data {
         font-size: 22px;
@@ -334,7 +327,7 @@
     }
 
     .button-slide-section {
-        width: 13%;   
+        width: 13%;
     }
 
     .click-circle {
@@ -342,23 +335,23 @@
         width: 25px;
     }
 
-    .click-circle::after {
-        width: 25px;
-        height: 25px;
-    }
+    // .click-circle::after {
+    //     width: 25px;
+    //     height: 25px;
+    // }
 
     .click-circle:hover {
+        background-color: #252B3B;
+        opacity: 0.8;
         width: 25px;
         height: 25px;
     }
 
     .button-section {
-        height: 253px;    
+        height: 253px;
     }
 
 }
-
-// desktop
 
 @media (min-width: 1260px) and (max-width: 1500px) {
 
@@ -383,12 +376,12 @@
     .table-block img {
         padding-right: 40px;
     }
-    
+
     .table-block h2 {
         padding: 20px;
         font-size: 34px;
     }
-    
+
 
     .table-data {
         font-size: 22px;
@@ -419,7 +412,7 @@
     }
 
     .button-slide-section {
-        width: 13%;   
+        width: 13%;
     }
 
     .click-circle {
@@ -427,25 +420,25 @@
         width: 25px;
     }
 
-    .click-circle::after {
-        width: 25px;
-        height: 25px;
-    }
+    // .click-circle::after {
+    //     width: 25px;
+    //     height: 25px;
+    // }
 
     .click-circle:hover {
+        background-color: #252B3B;
+        opacity: 0.8;
         width: 25px;
         height: 25px;
     }
 
     .button-section {
-        height: 253px;    
+        height: 253px;
     }
 
 }
 
-
 // tablet
-
 @media (min-width: 1025px) and (max-width: 1259px) {
 
     .programacao-title {
@@ -464,7 +457,7 @@
 
     .table-block {
         width: 42%;
-        
+
     }
 
     .table-block img {
@@ -472,7 +465,7 @@
         width: 40px;
         padding-right: 30px;
     }
-    
+
     .table-block h2 {
         padding: 10px;
         font-size: 28px;
@@ -505,7 +498,7 @@
     }
 
     .button-slide-section {
-        width: 20%;   
+        width: 20%;
     }
 
     .click-circle {
@@ -513,27 +506,28 @@
         width: 25px;
     }
 
-    .click-circle::after {
-        width: 25px;
-        height: 25px;
-    }
+    // .click-circle::after {
+    //     width: 25px;
+    //     height: 25px;
+    // }
 
     .click-circle:hover {
+        background-color: #252B3B;
+        opacity: 0.8;
         width: 25px;
         height: 25px;
     }
 
     .button-section {
-        height: 253px;    
+        height: 253px;
     }
 
 
 }
 
 // ipad mini
-
 @media (min-width: 768px) and (max-width: 1024px) {
-   
+
     .programacao-title {
         padding-bottom: 80px;
     }
@@ -584,20 +578,20 @@
     .table-data-size-1 p:last-child {
         padding-left: 30px;
     }
-    
+
 
     .slide-img {
-        height: 600px;
-        margin-top: 0;
+        // height: 600px;
+        // margin-top: 0;
     }
 
     .slide-img img {
-        width: fit-content;
+        // width: fit-content;
     }
 
     .button-slide-section {
         margin: 50px auto 0 auto;
-        width: 45%;   
+        width: 45%;
     }
 
     .click-circle {
@@ -605,22 +599,17 @@
         width: 35px;
     }
 
-    .click-circle::after {
-        width: 35px;
-        height: 35px;
-    }
-
-    .click-circle:hover {
-        width: 35px;
-        height: 35px;
-    }
+    // .click-circle::after {
+    //     width: 35px;
+    //     height: 35px;
+    // }
 
     .button-ingresso {
         font-size: 25px;
     }
 
     .button-section {
-        height: 180px;    
+        height: 180px;
     }
 
 }
@@ -639,7 +628,7 @@
 
     .programacao-title h1 {
         font-size: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .programacao-title p {
@@ -687,7 +676,7 @@
         align-items: flex-start;
     }
 
-    .table-data p{
+    .table-data p {
         font-size: 14px;
     }
 
@@ -698,38 +687,35 @@
     .table-data-size-1 p:last-child {
         padding-left: 30px;
     }
-    
+
     .slide-img {
-        height: 300px;
+        // height: 300px;
         margin-top: 0;
+        // border: solid red 2px;
     }
 
     .slide-img img {
-        width: max-content;
+        // height: 100%;
+        // width: auto;
     }
 
     .button-slide-section {
         margin: 30px auto 0 auto;
-        width: 60%;   
+        width: 50%;
     }
 
     .click-circle {
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
     }
 
-    .click-circle::after {
-        height: 20px;
-        width: 20px;
-    }
-
-    .click-circle:hover {
-        height: 20px;
-        width: 20px;
-    }
+    // .click-circle::after {
+    //     height: 15px;
+    //     width: 15px;
+    // }
 
     .button-ingresso {
-        font-size: 15px;
+        font-size: 14px;
         padding: 20px 12px;
         border-radius: 18px;
     }

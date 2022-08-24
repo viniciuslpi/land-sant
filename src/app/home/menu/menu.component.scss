@@ -56,13 +56,13 @@
     }
 
     .menu-item {
-        padding: 20px;
+        padding: 28px 30px;
         margin: 10px;
         font-size: 21px;
     }
 
     .menu-item:last-child {
-        border-radius: 18px;
+        border-radius: 25px;
     }
 
     .menu-button {
@@ -181,7 +181,7 @@
     }
 }
 
-@media (max-width: 391px) {
+@media (min-width: 331px) and (max-width: 391px) {
     header {
         background-image: url(https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD278.jpg);
         width: 100%;
@@ -199,6 +199,7 @@
 
     .menu-item {
         padding: 5px;
+        // margin: 10px;
         font-size: 12px;
     }
 
@@ -212,7 +213,47 @@
     }
 
     .menu-ul {
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .menu-button-red {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 330px) {
+    header {
+        background-image: url(https://tems.com.br/wp-content/uploads/2022/08/NOSSA-SENHORA-FULLHD278.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+    }
+
+    .menu-nav {
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    .menu-item {
+        padding: 5px;
+        // margin: 10px;
+        font-size: 10px;
+    }
+
+    .menu-item:last-child {
+       padding: 15px 12px; 
+       border-radius: 13px;
+    }
+
+    .menu-button {
+        font-size: 10px;
+    }
+
+    .menu-ul {
+        justify-content: space-between;
     }
 
     .menu-button-red {
