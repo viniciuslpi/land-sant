@@ -148,6 +148,13 @@
         width: 60px;
     }
 
+    
+    .contato-mobile-block-img-mail {
+        height: 45px !important;
+        width: 67px !important;
+    }
+
+
     .contato-mobile-block h2 {
         color: #032E9C;
         font-weight: bold;
@@ -187,8 +194,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-
-
     }
 
     .contato-mobile-block {
@@ -196,8 +201,11 @@
         border-radius: 20px;
         width: 30%;
         margin: 10px;
-        padding: 15px 10px;
+        padding: 25px 10px;
         height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .contato-mobile-link {
@@ -210,13 +218,18 @@
 
     .contato-mobile-block img {
         margin-bottom: 20px;
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
     }
 
-    .contato-mobile-block-img {
-        height: 30px !important;
-        width: 42px !important;
+    .contato-mobile-block-img-mail {
+        height: 25px !important;
+        width: 37px !important;
+    }
+
+    .contato-mobile-block-img-adress {
+        height: 40px !important;
+        width: 40px !important;
     }
 
 

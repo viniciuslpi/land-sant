@@ -14,9 +14,7 @@ export class ScrollService {
   }
 
   private __getElementById(id: string): HTMLElement {
-    console.log("element id : ", id);
     const element = <HTMLElement>document.querySelector(`#${id}`);
-    // const element: HTMLElement = document.getElementById(id);
     return element;
   }
 
