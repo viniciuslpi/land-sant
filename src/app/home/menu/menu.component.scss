@@ -143,7 +143,6 @@
     }
 }
 
-
 //mobile
 @media (min-width: 392px) and (max-width: 767px) {
 
@@ -158,13 +157,15 @@
 
     .menu-nav {
         margin: 0 auto;
-        padding-top: 30px;
+        padding-top: 10px;
         width: 100%;
     }
 
     .menu-item {
-        padding: 5px;
+        padding: 0px;
         font-size: 14px;
+        margin: 10px;
+        // border: #E51111 1px solid;
     }
 
     .menu-item:last-child {
@@ -178,6 +179,7 @@
 
     .menu-ul {
         justify-content: center;
+        // border: 1px solid blue;
     }
 }
 
@@ -193,8 +195,8 @@
 
     .menu-nav {
         margin: 0 auto;
-        padding-top: 30px;
-        width: 90%;
+        padding-top: 20px;
+        width: 100%;
     }
 
     .menu-item {
@@ -213,7 +215,7 @@
     }
 
     .menu-ul {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .menu-button-red {
@@ -233,7 +235,7 @@
 
     .menu-nav {
         margin: 0 auto;
-        padding-top: 30px;
+        padding-top: 20px;
         width: 90%;
     }
 
