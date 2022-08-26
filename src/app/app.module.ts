@@ -9,6 +9,7 @@ import { ProgramacaoComponent } from './home/programacao/programacao.component';
 import { ContatoComponent } from './home/contato/contato.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 
 
@@ -26,7 +27,9 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     NgImageSliderModule
   ],
-  providers: [],
+  providers: [
+    { provide: APP_BASE_HREF, useValue: '/primeiro-encontro-de-consagracao-a-nossa-senhora' }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
