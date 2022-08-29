@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'land-sant';
+  title = 'primeiro-encontro-de-consagracao-a-nossa-senhora';
 
 }
