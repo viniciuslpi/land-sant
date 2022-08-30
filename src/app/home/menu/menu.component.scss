@@ -16,6 +16,11 @@
     cursor: pointer;
 }
 
+.menu-item:last-child:hover {
+    background-color: #c40f0f;
+    transition: 1s;
+}
+
 .menu-item a {
     text-decoration: none;
 }
