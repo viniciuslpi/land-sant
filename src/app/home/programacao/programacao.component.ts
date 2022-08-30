@@ -85,6 +85,7 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = false;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
     if (option === 2) {
       this.ative1 = false;
@@ -95,6 +96,7 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = false;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
     if (option === 3) {
       this.ative1 = false;
@@ -105,6 +107,7 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = false;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
     if (option === 4) {
       this.ative1 = false;
@@ -115,6 +118,7 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = false;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
     if (option === 5) {
       this.ative1 = false;
@@ -125,6 +129,7 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = false;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
     if (option === 6) {
       this.ative1 = false;
@@ -135,9 +140,8 @@ export class ProgramacaoComponent implements OnInit {
       this.ative6 = true;
       this.ative7 = false;
       this.ative8 = false;
+      this.img_slide = this.array[this.cont];
     }
-
-    this.img_slide = this.array[this.cont];
   }
 
   changeIMG() {
