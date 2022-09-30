@@ -8,6 +8,7 @@ import { ProgramacaoComponent } from './home/programacao/programacao.component';
 import { ContatoComponent } from './home/contato/contato.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ProdutosComponent } from './home/produtos/produtos.component';
 
 
 
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     MenuComponent,
     ProgramacaoComponent,
     ContatoComponent,
-    FooterComponent
+    FooterComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
