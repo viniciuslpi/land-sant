@@ -1,21 +1,48 @@
 <section class="produtos">
-    <section class="info">
-        <div class="text">
-            <h1>Produtos Exclusivos</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type. </p>
+    <section class="info-desktop">
+        <div class="container-info">
+            <div class="text">
+                <h1>Produtos Exclusivos</h1>
+                <p>Leve a energia de Nossa Senhora e de todos os Irmãos Espirituais para sua casa. Adquira antecipadamente
+                    seus produtos exclusivos de mais esse evento no Santuário Sara Kali.</p>
+            </div>
+            <div class="block-btn">
+                <a class="btn" href="">Adquirir produtos</a>
+            </div>
         </div>
-        <div class="block-btn">
-            <p class="btn">
-                <a href="">Adquirir produtos</a>
-            </p>
+        <div class="container-img">
+            <div class="block-img">
+                <img src="https://tems.com.br/wp-content/uploads/2022/10/produto-01.jpg" alt="">
+            </div>
+            <div class="block-img">
+                <img src="https://tems.com.br/wp-content/uploads/2022/10/produto-02.jpg" alt="">
+            </div>
         </div>
     </section>
-    <section class="img-block">
-        <div class="img-space">
-            <img src="https://tems.com.br/wp-content/uploads/2022/09/camiseta.jpg" alt="">
+    <section class="info-mobile">
+        <div class="m-header">
+            <div class="m-block">
+                <h1>Produtos Exclusivos</h1>
+            </div>
+            <div class="m-block">
+                <a class="m-btn" href="">Adquirir produtos</a>
+            </div>
         </div>
-        <div class="img-space">
-            <img src="https://tems.com.br/wp-content/uploads/2022/09/caneca.jpg" alt="">
+        <div class="m-description">
+            <p>Leve a energia de Nossa Senhora e de todos os Irmãos Espirituais para sua casa. Adquira antecipadamente
+                seus produtos exclusivos de mais esse evento no Santuário Sara Kali.</p>
         </div>
+
+        <div class="slide-img">
+            <img src="{{ img_slide }}" alt="Fotografias de eventos passados">
+        </div>
+
+        <ul class="button-slide-section">
+            <li class="click-circle" [ngClass]="{'click-circle-ative' : ative1}" (click)="changeSlide(1)"></li>
+            <li class="click-circle" [ngClass]="{'click-circle-ative' : ative2}" (click)="changeSlide(2)"></li>
+        </ul>
     </section>
+
+
+
 </section>
