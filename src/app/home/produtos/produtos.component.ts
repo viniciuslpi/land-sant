@@ -11,6 +11,7 @@ export class ProdutosComponent implements OnInit {
   constructor() { }
 
   img_slide = "https://tems.com.br/wp-content/uploads/2022/08/produto-1.jpg";
+  link_img = "https://santuariosarakali.com.br/produto/camiseta-encontro-de-consagracao-a-nossa-senhora/"
   array: string[] = [];
   cont = 0;
 
@@ -68,18 +69,21 @@ export class ProdutosComponent implements OnInit {
     }
     this.img_slide = this.array[this.cont];
   }
-
+  
   changeSlide(option: any) {
     this.cont = option;
+
     if (option === 1) {
       this.ative1 = true;
       this.ative2 = false;
       this.img_slide = this.array[this.cont];
+      this.link_img = "https://santuariosarakali.com.br/produto/camiseta-encontro-de-consagracao-a-nossa-senhora/";
     }
     if (option === 2) {
       this.ative1 = false;
       this.ative2 = true;
       this.img_slide = this.array[this.cont];
+      this.link_img = "https://santuariosarakali.com.br/produto/caneca-encontro-de-consagracao-a-nossa-senhora/"
     }
   }
 
